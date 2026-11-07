@@ -1,0 +1,12 @@
+https://github.com/macnaer/ToDoAI
+
+Необхідно:
+1.Створити Docker image
+2.Завантажити Docker image в Amazon ECR.
+3.За допомогою Terraform Налаштувати Application Load Balancer.
+a) Autoscaling pilicy
+4.Забезпечити публічний доступ до застосунку через ALB по імені за допомогою Route53.
+5.Закинути це все на GitHub
+
+Домен myrkoslk.pp.ua
+Використати AI-агента для створення та перевірки інфраструктури.
