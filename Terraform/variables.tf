@@ -23,7 +23,7 @@ variable "image_tag" {
 }
 
 variable "domain_name" {
-  description = "Публічний домен (hosted zone у Route53)"
+  description = "Ваш публічний домен (hosted zone у Route53)"
   type        = string
   default     = "example.com"
 }
