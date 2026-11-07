@@ -50,7 +50,11 @@ AWS_Exam/
 ├── README.md                     # цей файл
 ├── .gitignore                    # tfstate/.terraform/secrets — у гіт не потрапляють
 ├── Screenshots/                  # скріншоти виконання (звіт)
-├── Skills/
+├── .agents/skills/               # Agent Skills: project-specific AWS workflows
+│   ├── terraform-aws-workflow/SKILL.md
+│   ├── ecr-image-release/SKILL.md
+│   ├── aws-deployment-verification/SKILL.md
+│   └── aws-infrastructure-security-review/SKILL.md
 └── Terraform/
     ├── versions.tf               # Terraform >= 1.5, провайдер hashicorp/aws ~> 5.0
     ├── providers.tf              # регіон eu-north-1, креди із ~/.aws/credentials
