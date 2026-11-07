@@ -1,0 +1,30 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfplan.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Секрети та локальні значення змінних
+*.tfvars
+!*.tfvars.example
+secrets*
+
+# Залежності та збірка
+node_modules/
+dist/
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
