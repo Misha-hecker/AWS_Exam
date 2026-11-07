@@ -1,5 +1,6 @@
 # AWS Exam — ToDoAI на Application Load Balancer
 
+
 Виконання завдання з `AWS Exam.txt`: Docker-образ → Amazon ECR → Terraform
 (ALB + autoscaling policy) → публічний доступ через Route53 за іменем
 `example.com` → усе в GitHub.
