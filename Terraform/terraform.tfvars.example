@@ -1,0 +1,15 @@
+# Приклад значень змінних. Скопіюй у terraform.tfvars, якщо треба щось змінити.
+# Секрети у tfvars не зберігаються: креденціали AWS беруться із ~/.aws/credentials.
+
+aws_region           = "eu-north-1"
+project_name         = "todoai"
+ecr_repository_name  = "todoai"
+image_tag            = "v1"
+domain_name          = "example.com"
+instance_type        = "t3.micro"
+app_port             = 5173
+
+asg_min_size         = 1
+asg_max_size         = 2
+asg_desired_capacity = 1
+cpu_target_value     = 60
